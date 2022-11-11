@@ -1,0 +1,37 @@
+{
+  "name": "symbols-and-iterators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/it-Lilya/Symbols-and-Iterators.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/it-Lilya/Symbols-and-Iterators/issues"
+  },
+  "homepage": "https://github.com/it-Lilya/Symbols-and-Iterators#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "babel-loader": "^9.1.0",
+    "core-js": "^3.26.0",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^29.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
